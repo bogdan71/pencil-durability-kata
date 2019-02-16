@@ -8,6 +8,7 @@ namespace PencilKata
         {
             Pencil pencil = new Pencil();
             pencil.WriteText("blah blah blah");
+            pencil.WriteText("more more more");
 
             Console.WriteLine(pencil.ToString());
 
